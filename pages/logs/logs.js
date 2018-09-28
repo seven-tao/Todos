@@ -22,7 +22,7 @@ Page({
           // console.log(wx.getStorageSync('todo_logs').length);
           that.setData({ logs: [] });
           app.data.logs = [];
-        }11
+        }
       }
     });
   }
