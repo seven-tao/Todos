@@ -2,7 +2,7 @@
 
 > A todos app by wechat weapp runtime
 
-https://github.com/zce/weapp-todos
+https://github.com/seven-tao/Todos
 
 ## Preview
 
@@ -20,5 +20,3 @@ https://github.com/zce/weapp-todos
 > **NOTE**: Be sure to merge the latest from "upstream" before making a pull request!
 
 ## License
-
-[MIT](LICENSE) &copy; [汪磊](https://zce.me)
