@@ -1,0 +1,17 @@
+<view class="container">
+  <block wx:if="{{ logs.length }}">
+    <button bind:tap="clearLogs">Clear</button>
+  <view class="logs" wx:if="{{ logs.length }}">
+    <view class="item" wx:for="{{ logs }}" wx:key="{{ index }}">
+      <text class="name">Name: {{ item.name }}</text>
+      <text class="action">{{ item.action }}</text>
+      <text class="timestamp">[{{ item.timestamp }}]</text>
+    </view>
+  </view>
+  </block>
+    <block wx:else>
+    <view class="empty">
+      <text class="content">There's no more logs.</text>
+    </view>
+  </block>
+</view>
