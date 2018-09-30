@@ -5,7 +5,6 @@ Page({
   },
   onShow: function () {
     var logs = wx.getStorageSync('todo_logs')
-    // console.log(logs.length);
     if (logs) {
       this.setData({ logs: logs.reverse() })
     }
@@ -19,7 +18,6 @@ Page({
         if(res.confirm)
         {
           wx.removeStorageSync('todo_logs');
-          // console.log(wx.getStorageSync('todo_logs').length);
           that.setData({ logs: [] });
           app.data.logs = [];
         }
